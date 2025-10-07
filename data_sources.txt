@@ -1,0 +1,2 @@
+THL: https://sotkanet.fi/sotkanet/en/haku?
+Tilastokeskus: https://pxdata.stat.fi/PXWeb/pxweb/en/StatFin/StatFin__ksyyt/?tablelist=true
