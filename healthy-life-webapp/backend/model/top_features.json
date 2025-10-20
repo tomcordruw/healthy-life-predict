@@ -1,0 +1,64 @@
+{
+  "top_features": [
+    {
+      "Feature": "1. EARNED INCOME, mean",
+      "Importance": 0.614359438419342,
+      "Correlation": 0.6566818425238765,
+      "Effect": "Increases Life Expectancy"
+    },
+    {
+      "Feature": "disability_ratio",
+      "Importance": 0.0563448928296566,
+      "Correlation": -0.7659649986231217,
+      "Effect": "Decreases Life Expectancy"
+    },
+    {
+      "Feature": "Disposable cash income,  median",
+      "Importance": 0.05344375967979431,
+      "Correlation": 0.7341642652836079,
+      "Effect": "Increases Life Expectancy"
+    },
+    {
+      "Feature": "alcohol_sales",
+      "Importance": 0.03531504422426224,
+      "Correlation": -0.7075983496593914,
+      "Effect": "Decreases Life Expectancy"
+    },
+    {
+      "Feature": "Share of persons aged 15 or over with tertiary level qualification, %",
+      "Importance": 0.028327614068984985,
+      "Correlation": 0.5947462592543546,
+      "Effect": "Increases Life Expectancy"
+    },
+    {
+      "Feature": "daily_smokers",
+      "Importance": 0.027154747396707535,
+      "Correlation": -0.47865500220654245,
+      "Effect": "Decreases Life Expectancy"
+    },
+    {
+      "Feature": "binge_drinking",
+      "Importance": 0.018310708925127983,
+      "Correlation": -0.25116242879154976,
+      "Effect": "Decreases Life Expectancy"
+    },
+    {
+      "Feature": "Average age, both sexes",
+      "Importance": 0.016035176813602448,
+      "Correlation": -0.5238161472459619,
+      "Effect": "Decreases Life Expectancy"
+    },
+    {
+      "Feature": "Dwelling population, persons",
+      "Importance": 0.015299650840461254,
+      "Correlation": 0.2912903371514315,
+      "Effect": "Increases Life Expectancy"
+    },
+    {
+      "Feature": "health_workers_per_10k_public_physicians",
+      "Importance": 0.014774156734347343,
+      "Correlation": 0.2990279374019647,
+      "Effect": "Increases Life Expectancy"
+    }
+  ]
+}

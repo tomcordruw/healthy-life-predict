@@ -1,0 +1,24 @@
+# docker-compose.override.yml
+# This file is for local overrides and is ignored by git
+# Copy this to docker-compose.override.yml and customize
+
+version: '3.8'
+
+services:
+  backend:
+    # Override environment variables
+    environment:
+      - FLASK_ENV=development
+      - DEBUG=1
+    # Override ports
+    ports:
+      - "5001:5000"  # Use different port if 5000 is taken
+    
+  frontend:
+    # Override ports
+    ports:
+      - "8080:80"  # Use different port if 80 is taken
+    # Add custom build args
+    build:
+      args:
+        - VITE_API_URL=http://localhost:5001
