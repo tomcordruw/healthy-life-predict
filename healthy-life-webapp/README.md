@@ -165,19 +165,3 @@ npm run dev
 cd frontend
 npm run build
 ```
-
-## 📝 License
-
-This is a demo project for educational purposes.
-
-## ⚠️ Disclaimer
-
-This tool provides estimates based on statistical models and should not be considered medical advice. Individual health outcomes vary significantly based on many factors not captured in this model. Always consult with healthcare professionals for personal health decisions.
-
-## 🤝 Contributing
-
-This is a demo project. Feel free to fork and modify for your own purposes!
-
----
-
-**Built with ❤️ using React, TypeScript, Flask, and XGBoost**
