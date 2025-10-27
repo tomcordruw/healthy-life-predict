@@ -42,7 +42,7 @@ docker-compose up -d
 
 Visit **http://localhost** to use the application.
 
-👉 **See [healthy-life-webapp/README.md](healthy-life-webapp/README.md) for full documentation.**
+**See [healthy-life-webapp/README.md](healthy-life-webapp/README.md) for full documentation.**
 
 ### Option 2: Explore the Data Science Notebooks
 
@@ -69,7 +69,6 @@ See `notebooks/data_sources.txt` for direct links.
 - **Algorithm**: XGBoost (Extreme Gradient Boosting)
 - **Features**: 34 features including income, education, smoking, alcohol, exercise, mental health
 - **Target**: Life expectancy (years)
-- **Performance**: Trained on regional data from Finnish municipalities (2013-2021)
 
 ## Technology Stack
 
