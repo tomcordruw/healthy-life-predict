@@ -1,8 +1,10 @@
 # Life Expectancy Prediction Project
 
+Project live at: https://healthy-life-webapp.azurewebsites.net/
+
 A machine learning project that predicts life expectancy based on Finnish regional health and demographic data (2013-2021).
 
-## 🎯 Project Overview
+## Project Overview
 
 This project uses XGBoost machine learning to predict life expectancy based on lifestyle, health, and socioeconomic factors. It includes:
 
@@ -10,26 +12,26 @@ This project uses XGBoost machine learning to predict life expectancy based on l
 2. **Web Application** - Full-stack web app for interactive predictions
 3. **ML Model** - Trained XGBoost model with 34 features
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 healthy-life/
-├── healthy-life-webapp/    # ⭐ Production Web Application
+├── healthy-life-webapp/    # Production Web Application
 │   ├── backend/            # Flask API + ML model
 │   ├── frontend/           # React + TypeScript UI
 │   └── README.md           # Full webapp documentation
 │
-├── notebooks/              # 📓 Data Science & Development
+├── notebooks/              # Data Science & Development
 │   ├── analysis.ipynb      # Model training & evaluation
 │   ├── data_processing.ipynb
 │   └── import_data.ipynb
 │
-└── regional_data/          # 📊 Raw Data Sources
+└── regional_data/          # Raw Data Sources
     ├── thl/                # Finnish Institute for Health and Welfare
     └── tilastokeskus/      # Statistics Finland
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Run the Web Application (Recommended)
 
@@ -55,21 +57,21 @@ jupyter notebook
 
 Open `analysis.ipynb` to see the model training process.
 
-## 📊 Data Sources
+## Data Sources
 
 - **THL (Finnish Institute for Health and Welfare)**: Health indicators, lifestyle factors
 - **Statistics Finland (Tilastokeskus)**: Demographics, socioeconomics, education
 
 See `notebooks/data_sources.txt` for direct links.
 
-## 🤖 Model Details
+## Model Details
 
 - **Algorithm**: XGBoost (Extreme Gradient Boosting)
 - **Features**: 34 features including income, education, smoking, alcohol, exercise, mental health
 - **Target**: Life expectancy (years)
 - **Performance**: Trained on regional data from Finnish municipalities (2013-2021)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Web Application
 - **Backend**: Flask, Python 3.11, XGBoost, scikit-learn
@@ -81,13 +83,13 @@ See `notebooks/data_sources.txt` for direct links.
 - **ML**: XGBoost, scikit-learn
 - **Data**: CSV files from Finnish government sources
 
-## 📖 Documentation
+## Documentation
 
 - **[webapp README](healthy-life-webapp/README.md)** - Web application setup and usage
 - **[DOCKER_GUIDE](healthy-life-webapp/DOCKER_GUIDE.md)** - Docker deployment instructions
 - **[FEATURE_CONVERSION_GUIDE](healthy-life-webapp/FEATURE_CONVERSION_GUIDE.md)** - Technical explanation of feature engineering
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Disclaimer
 This tool provides **statistical estimates** based on population data and should not be considered medical advice. Individual health outcomes vary significantly based on many factors not captured in this model. Always consult with healthcare professionals for personal health decisions.
@@ -100,7 +102,7 @@ This is an **educational project** demonstrating machine learning applications i
 
 
 
-## 🔗 Links
+## Links
 
 - **Data Sources**:
   - [THL Sotkanet](https://sotkanet.fi/sotkanet/en/haku)
